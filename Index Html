@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button to Trigger JavaScript</title>
+    <script>
+        function killCode() {
+            while (1 + 1 === 2) {
+                window.open('chrome://newtab', '_blank');
+            }
+        }
+
+        function stopCode() {
+            alert("The script has been stopped.");
+        }
+    </script>
+</head>
+<body>
+
+    <button onclick="killCode()">Start Code</button>
+    <button onclick="stopCode()">Stop Code</button>
+
+</body>
+</html>
